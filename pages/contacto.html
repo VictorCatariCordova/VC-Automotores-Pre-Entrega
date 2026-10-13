@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | VC Automotores</title>
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Racing+Sans+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Racing+Sans+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <a href="../index.html" class="logo">
+        <img src="../img/logo1.png" alt="" />
+       
+      </a>
+      <nav>
+        <ul class="nav">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../index.html#autos">Vehiculos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <h1 class="color-contacto">Envianos un Correo Electronico</h1>
+
+    <p class="color-parrafo"> Aceptamos Permuta Escribinos</p>
+
+    <form class="formulario" action="https://formspree.io/f/mgaoldjq" method="POST">
+        <div class="campo"> 
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+
+        <div class="campo"> 
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" required />
+        </div>
+
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" />
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+   <div class="contenedor">
+            <p>Todos los derechos reservados Victor Catari Automotores © │ Curso Front-End │ Talento Tech © │ 2026</p>
+            <p><a href="./contacto.html">Envianos un Correo</a></p>
+        </div>
+  </footer>
+</body>
+
+</html>
