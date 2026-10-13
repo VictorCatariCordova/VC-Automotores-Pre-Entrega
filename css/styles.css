@@ -151,7 +151,7 @@ header {
 .btn-consultar {
   align-self: flex-start;
   padding: 0.8rem 1.6rem;
-  background-color: #9c6236;
+  background-color: #1f1e1e;
   color: #f7f6f3;
   text-decoration: none;
   border-radius: 4px;
@@ -159,7 +159,7 @@ header {
 
 .btn-consultar:hover,
 .btn-consultar:focus-visible {
-  background-color: #7b4a26;
+  background-color: #bb2015;
 }
 
 .formulario {
